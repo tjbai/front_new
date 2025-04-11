@@ -1,8 +1,9 @@
 @font-face {
     font-family: 'Azeret Mono';
     font-weight: 400;
-    src: url('/fonts/AzeretMono-VariableFont_wght.ttf') format('truetype');
+    src: url('/fonts/azeret-mono-v18-latin-regular.woff2') format('woff2');
     font-display: swap;
+    font-style: normal;
 }
 
 :root {
