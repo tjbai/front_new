@@ -1,15 +1,23 @@
 @font-face {
-    font-family: 'Azeret Mono';
+    font-family: 'iA Writer Duo';
     font-weight: 400;
-    src: url('/fonts/azeret-mono-v18-latin-regular.woff2') format('woff2');
+    src: url('/fonts/iAWriterDuoS-Regular.woff2') format('woff2');
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'iA Writer Duo';
+    font-weight: 700;
+    src: url('/fonts/iAWriterDuoS-Bold.woff2') format('woff2');
     font-display: swap;
     font-style: normal;
 }
 
 :root {
   --width: 720px;
-  --font-main: "Azeret Mono", sans-serif;
-  --font-secondary: "Azeret Mono", sans-serif;
+  --font-main: "iA Writer Duo", monospace;
+  --font-secondary: "iA Writer Duo", monospace;
   --font-scale: 1em;
   --background-color: #e8e8e8;
   --heading-color: #222;
@@ -31,6 +39,7 @@ img {
 body {
   font-family: var(--font-secondary);
   font-size: var(--font-scale);
+  font-weight: 400;
   margin: auto;
   padding: 20px;
   max-width: var(--width);
@@ -38,7 +47,7 @@ body {
   background-color: var(--background-color);
   word-wrap: break-word;
   overflow-wrap: break-word;
-  line-height: 1.5;
+  line-height: 1.2;
   color: var(--text-color);
 }
 
@@ -104,7 +113,7 @@ img {
 }
 
 code {
-  font-family: "Azeret Mono";
+  font-family: "iA Writer Duo";
   padding: 2px;
   background-color: var(--code-background-color);
   color: var(--code-color);
